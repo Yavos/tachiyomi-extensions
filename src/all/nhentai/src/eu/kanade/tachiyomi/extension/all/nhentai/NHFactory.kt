@@ -7,6 +7,7 @@ class NHFactory : SourceFactory {
     override fun createSources(): List<Source> = listOf(
         NHentai("en", "english"),
         NHentai("ja", "japanese"),
-        NHentai("zh", "chinese")
+        NHentai("zh", "chinese"),
+        NHentai("other", "")
     )
 }
